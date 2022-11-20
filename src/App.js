@@ -1,10 +1,22 @@
-import "./App.css";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+import NavBar from "./components/NavBar";
+import ProjectList from "./components/ProjectList";
+import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Gabriel Godoy</h1>
-    </div>
+    <>
+      <NavBar />
+      <Main />
+      <ProjectList />
+      <Skills />
+      <About />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 

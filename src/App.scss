@@ -1,0 +1,18 @@
+$primary: #4f2faa;
+$navbar-dark-hover-color: rgba($primary, 1);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.mainImage {
+  background-image: url("/src/assets/images/selfi.jpg");
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+}
+
+.img-object-fit {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
