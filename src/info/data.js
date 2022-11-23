@@ -1,5 +1,5 @@
 export const personalInfo = {
-  mail: "mailto:gabyreload@gmail.com",
+  mail: "mailto:developer@gabrielgodoy.com.ar",
   whatsapp: "https://web.whatsapp.com/send?l=es&phone=+5493476643800",
   github: "https://github.com/gabyreload1983",
   linkedin: "https://www.linkedin.com/in/estebangabrielgodoy/",
@@ -8,6 +8,14 @@ export const personalInfo = {
 };
 
 export const projects = [
+  {
+    nameImage: "memeGenerator",
+    name: "Meme Generator",
+    type: "Web Application",
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACT"],
+    urlGithub: "https://github.com/gabyreload1983/meme-generator-react",
+    urlDeploy: "https://meme-generator-react-rosy.vercel.app/",
+  },
   {
     nameImage: "vidly",
     name: "Vidly",
