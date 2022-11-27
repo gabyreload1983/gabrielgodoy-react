@@ -9,6 +9,14 @@ export const personalInfo = {
 
 export const projects = [
   {
+    nameImage: "tictactoe",
+    name: "Tic Tac Toe",
+    type: "Web Application",
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACT"],
+    urlGithub: "https://github.com/gabyreload1983/tic-tac-toe",
+    urlDeploy: "https://tic-tac-toe-ashen-beta.vercel.app/",
+  },
+  {
     nameImage: "memeGenerator",
     name: "Meme Generator",
     type: "Web Application",
