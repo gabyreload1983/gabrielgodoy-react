@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaHtml5 } from "react-icons/fa";
+import { FaHtml5, FaPhp, FaPython } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
@@ -9,6 +9,7 @@ import { DiMongodb } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
+import { DiUbuntu } from "react-icons/di";
 
 function HardSkills(props) {
   return (
@@ -42,6 +43,15 @@ function HardSkills(props) {
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
           <FaGit size={100} />
+        </Col>
+        <Col className="text-center mb-4" xs={6} lg={3}>
+          <DiUbuntu size={100} />
+        </Col>
+        <Col className="text-center mb-4" xs={6} lg={3}>
+          <FaPython size={100} />
+        </Col>
+        <Col className="text-center mb-4" xs={6} lg={3}>
+          <FaPhp size={100} />
         </Col>
       </Row>
     </>
