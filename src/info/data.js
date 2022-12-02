@@ -9,6 +9,14 @@ export const personalInfo = {
 
 export const projects = [
   {
+    nameImage: "coderReactjs",
+    name: "CoderHouse Reactjs",
+    type: "Web Application",
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACTJS"],
+    urlGithub: "https://github.com/gabyreload1983/coderHouseReact-GabrielGodoy",
+    urlDeploy: "https://coder-house-react-gabriel-godoy.vercel.app/",
+  },
+  {
     nameImage: "coderJavascript",
     name: "CoderHouse Javascript",
     type: "Web Application",

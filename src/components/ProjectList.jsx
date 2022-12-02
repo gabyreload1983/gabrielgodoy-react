@@ -14,14 +14,7 @@ function ProjectList(props) {
       <Row className="g-3 m-0">
         {projects.map((proyect) => (
           <Col key={proyect.urlGithub} md={6} lg={4}>
-            <ProyectCard
-              nameImage={proyect.nameImage}
-              name={proyect.name}
-              type={proyect.type}
-              technologies={proyect.technologies}
-              urlGithub={proyect.urlGithub}
-              urlDeploy={proyect.urlDeploy}
-            />
+            <ProyectCard {...proyect} />
           </Col>
         ))}
       </Row>
