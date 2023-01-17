@@ -4,7 +4,7 @@ $navbar-dark-hover-color: rgba($primary, 1);
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 .mainImage {
-  background-image: url("/src/assets/images/selfi.jpg");
+  background-image: url("./assets/images/selfi.jpg");
   height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,4 +15,14 @@ $navbar-dark-hover-color: rgba($primary, 1);
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.iconHardskill {
+  color: black;
+}
+
+.iconHardskill:hover {
+  transform: scale(1.15);
+  transition: 0.4s;
+  color: var(--bs-primary);
 }

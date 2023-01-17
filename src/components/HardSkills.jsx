@@ -10,54 +10,60 @@ import { SiMysql } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
 import { DiUbuntu } from "react-icons/di";
+import { IconContext } from "react-icons";
 
 function HardSkills(props) {
   return (
-    <>
+    <IconContext.Provider
+      value={{
+        size: "100px",
+        className: "iconHardskill",
+      }}
+    >
       <h2 className="text-center pt-4 pb-3">Hard Skills</h2>
 
       <Row>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <FaHtml5 size={100} />
+          <FaHtml5 />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <FaCss3 size={100} />
+          <FaCss3 />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <IoLogoJavascript size={100} />
+          <IoLogoJavascript />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <BsFillBootstrapFill size={100} />
+          <BsFillBootstrapFill />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <DiNodejsSmall size={100} />
+          <DiNodejsSmall />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <DiMongodb size={100} />
+          <DiMongodb />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <SiMysql size={100} />
+          <SiMysql />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <FaReact size={100} />
+          <FaReact />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <FaGit size={100} />
+          <FaGit />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <DiUbuntu size={100} />
+          <DiUbuntu />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <FaPython size={100} />
+          <FaPython />
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
-          <FaPhp size={100} />
+          <FaPhp />
         </Col>
-        <Col className="text-center mb-4" xs={6} lg={3} color={"red"}>
-          <FaDocker size={100} />
+        <Col className="text-center mb-4" xs={6} lg={3}>
+          <FaDocker />
         </Col>
       </Row>
-    </>
+    </IconContext.Provider>
   );
 }
 
