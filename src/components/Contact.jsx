@@ -50,7 +50,7 @@ function Contact(props) {
       });
   };
   return (
-    <Container id="contact" className=" pt-4 pb-3">
+    <Container id="contact">
       <h2 className="text-center">
         C
         {isSendingEmail ? (
@@ -88,7 +88,7 @@ function Contact(props) {
             >
               <Form.Control
                 as="textarea"
-                rows={3}
+                rows={7}
                 placeholder="Message"
                 name="message"
                 required

@@ -4,7 +4,7 @@ import {
   BsGithub,
   BsLinkedin,
   BsInstagram,
-  BsGoogle,
+  BsFillEnvelopeFill,
   BsYoutube,
   BsWhatsapp,
 } from "react-icons/bs";
@@ -28,7 +28,7 @@ function Footer(props) {
               <BsInstagram size={30} className="me-2" />
             </Nav.Link>
             <Nav.Link href={personalInfo.mail}>
-              <BsGoogle size={30} className="me-2" />
+              <BsFillEnvelopeFill size={30} className="me-2" />
             </Nav.Link>
             <Nav.Link href={personalInfo.youtube} target="_blank">
               <BsYoutube size={30} className="me-2" />

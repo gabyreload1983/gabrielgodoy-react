@@ -5,7 +5,7 @@ import SoftSkills from "./SoftSkills";
 
 function Skills(props) {
   return (
-    <Container id="skills" className="border-bottom border-3 border-primary">
+    <Container id="skills">
       <SoftSkills />
       <HardSkills />
     </Container>

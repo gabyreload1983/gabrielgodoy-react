@@ -8,15 +8,12 @@ function ProyectCard(props) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  const { nameImage, name, type, technologies, urlGithub, urlDeploy } = props;
+  const { urlImage, name, type, technologies, urlGithub, urlDeploy } = props;
   return (
     <>
       <Card border="primary">
         <Card.Link href={urlDeploy} target="_blank">
-          <Card.Img
-            variant="top"
-            src={require(`../assets/images/projects/${nameImage}.png`)}
-          />
+          <Card.Img variant="top" src={urlImage} />
         </Card.Link>
         <Card.Body>
           <Card.Title>{type}</Card.Title>

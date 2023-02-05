@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { hobbiesImages } from "../info/data";
 
 function About(props) {
   return (
@@ -15,27 +16,21 @@ function About(props) {
         My main hobbies are playing the guitar, swimming and traveling
       </p>
       <Row className="justify-content-center">
-        <Col lg={3} className="mb-3">
-          <img
-            src={require("../assets/images/hobbies/guitars.jpg")}
-            className="img-fluid img-object-fit "
-            alt=""
-          />
-        </Col>
-        <Col lg={3} className="mb-3">
-          <img
-            src={require("../assets/images/hobbies/natacion.jpg")}
-            className="img-fluid img-object-fit "
-            alt=""
-          />
-        </Col>
-        <Col lg={3} className="mb-3">
-          <img
-            src={require("../assets/images/hobbies/travel.jpg")}
-            className="img-fluid img-object-fit"
-            alt=""
-          />
-        </Col>
+        {hobbiesImages.travels.map((travel) => (
+          <Col lg={3} className="mb-3" key={travel}>
+            <img src={travel} className="img-fluid img-object-fit " alt="" />
+          </Col>
+        ))}
+        {hobbiesImages.swiming.map((swim) => (
+          <Col lg={3} className="mb-3" key={swim}>
+            <img src={swim} className="img-fluid img-object-fit " alt="" />
+          </Col>
+        ))}
+        {hobbiesImages.guitars.map((guitar) => (
+          <Col lg={3} className="mb-3" key={guitar}>
+            <img src={guitar} className="img-fluid img-object-fit " alt="" />
+          </Col>
+        ))}
       </Row>
     </Container>
   );
