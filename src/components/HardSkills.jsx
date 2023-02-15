@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaDocker, FaHtml5, FaPhp, FaPython } from "react-icons/fa";
+import { FaDocker, FaGithub, FaHtml5, FaPhp, FaPython } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
@@ -61,6 +61,9 @@ function HardSkills(props) {
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
           <FaDocker />
+        </Col>
+        <Col className="text-center mb-4" xs={6} lg={3}>
+          <FaGithub />
         </Col>
       </Row>
     </IconContext.Provider>
