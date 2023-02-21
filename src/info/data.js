@@ -9,7 +9,22 @@ export const personalInfo = {
 
 export const projects = [
   {
-    nameImage: "coderReactjs",
+    name: "Chat Websocket",
+    type: "Web Application",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "BOOTSTRAP",
+      "NODEJS",
+      "WEBSOCKET",
+    ],
+    urlGithub: "https://github.com/gabyreload1983/chatWebsocket",
+    urlDeploy: "https://daisy-secretive-eggnog.glitch.me/",
+    urlImage:
+      "https://res.cloudinary.com/dpugly2tk/image/upload/v1676952280/gabrielgodoy/projects/websocket_qrkgem.png",
+  },
+  {
     name: "CoderHouse Reactjs",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACTJS"],
@@ -19,7 +34,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606625/gabrielgodoy/projects/coderReactjs_uon6mv.png",
   },
   {
-    nameImage: "coderJavascript",
     name: "CoderHouse Javascript",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP"],
@@ -29,7 +43,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606626/gabrielgodoy/projects/coderJavascript_nv4xhq.png",
   },
   {
-    nameImage: "tictactoe",
     name: "Tic Tac Toe",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACT"],
@@ -39,7 +52,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606623/gabrielgodoy/projects/tictactoe_yn7ida.png",
   },
   {
-    nameImage: "memeGenerator",
     name: "Meme Generator",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACT"],
@@ -49,7 +61,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606624/gabrielgodoy/projects/memeGenerator_e9a5yq.png",
   },
   {
-    nameImage: "vidly",
     name: "Vidly",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACT"],
@@ -59,7 +70,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606623/gabrielgodoy/projects/vidly_zudqyo.png",
   },
   {
-    nameImage: "tenzies",
     name: "Tenzies",
     type: "Web Application Game",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACT"],
@@ -69,7 +79,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606623/gabrielgodoy/projects/tenzies_k8ml6f.png",
   },
   {
-    nameImage: "login",
     name: "Login",
     type: "Web Application",
     technologies: [
@@ -87,7 +96,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606624/gabrielgodoy/projects/login_eyjxev.png",
   },
   {
-    nameImage: "notes",
     name: "Notes Blog",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "NODEJS", "EXPRESS", "MONGODB"],
@@ -97,7 +105,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606623/gabrielgodoy/projects/notes_zrpmeu.png",
   },
   {
-    nameImage: "sinapsis",
     name: "Sinapsis App",
     type: "Web Application",
     technologies: [
@@ -116,7 +123,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606623/gabrielgodoy/projects/sinapsis_qxqurl.png",
   },
   {
-    nameImage: "moshify",
     name: "Moshify",
     type: "Web Page",
     technologies: ["HTML", "CSS", "BOOTSTRAP"],
@@ -126,7 +132,6 @@ export const projects = [
       "https://res.cloudinary.com/dpugly2tk/image/upload/v1675606623/gabrielgodoy/projects/moshify_lfpbdr.png",
   },
   {
-    nameImage: "estudio",
     name: "Estudio Contable Mugica",
     type: "Web Page",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "JAVASCRIPT"],
