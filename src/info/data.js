@@ -9,6 +9,15 @@ export const personalInfo = {
 
 export const projects = [
   {
+    name: "Password Generator",
+    type: "Web Application",
+    technologies: ["HTML", "CSS", "JAVASCRIPT"],
+    urlGithub: "https://github.com/gabyreload1983/password-generator-js",
+    urlDeploy: "https://password-generator-js-lilac.vercel.app/",
+    urlImage:
+      "https://res.cloudinary.com/dpugly2tk/image/upload/v1681131827/gabrielgodoy/projects/passwordGenerator_aglt5z.png",
+  },
+  {
     name: "Chat Websocket",
     type: "Web Application",
     technologies: [
