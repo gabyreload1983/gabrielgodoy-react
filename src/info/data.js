@@ -9,6 +9,15 @@ export const personalInfo = {
 
 export const projects = [
   {
+    name: "Van Life",
+    type: "Web Application",
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+    urlGithub: "https://github.com/gabyreload1983/van-life",
+    urlDeploy: "https://gabyreload-van-life.netlify.app/",
+    urlImage:
+      "https://res.cloudinary.com/dpugly2tk/image/upload/v1682469955/gabrielgodoy/projects/van-life_xcibmv.png",
+  },
+  {
     name: "Password Generator",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT"],
