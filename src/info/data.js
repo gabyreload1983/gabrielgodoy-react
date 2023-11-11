@@ -15,7 +15,7 @@ export const projects = [
     urlGithub: "https://github.com/gabyreload1983/netninja-next-tutorial",
     urlDeploy: "https://netninja-next-tutorial.vercel.app/",
     urlImage:
-      "https://res.cloudinary.com/dpugly2tk/image/upload/v1699729207/gabrielgodoy/projects/helpdesk-nextjs.png",
+      "https://res.cloudinary.com/dpugly2tk/image/upload/v1699730502/gabrielgodoy/projects/nextjs-helpdesk.png",
   },
   {
     name: "Van Life",
