@@ -9,6 +9,15 @@ export const personalInfo = {
 
 export const projects = [
   {
+    name: "Helpdesk Tickets",
+    type: "Web Application",
+    technologies: ["HTML", "CSS", "JAVASCRIPT", "REACT", "NEXTJS", "TAILWIND"],
+    urlGithub: "https://github.com/gabyreload1983/netninja-next-tutorial",
+    urlDeploy: "https://netninja-next-tutorial.vercel.app/",
+    urlImage:
+      "https://res.cloudinary.com/dpugly2tk/image/upload/v1699729207/gabrielgodoy/projects/helpdesk-nextjs.png",
+  },
+  {
     name: "Van Life",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "REACT"],
