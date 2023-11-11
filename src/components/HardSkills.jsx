@@ -6,11 +6,12 @@ import { IoLogoJavascript } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { DiNodejsSmall } from "react-icons/di";
 import { DiMongodb } from "react-icons/di";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaGit } from "react-icons/fa";
 import { DiUbuntu } from "react-icons/di";
 import { IconContext } from "react-icons";
+import { TbBrandNextjs } from "react-icons/tb";
 
 function HardSkills(props) {
   return (
@@ -64,6 +65,12 @@ function HardSkills(props) {
         </Col>
         <Col className="text-center mb-4" xs={6} lg={3}>
           <FaGithub />
+        </Col>
+        <Col className="text-center mb-4" xs={6} lg={3}>
+          <TbBrandNextjs />
+        </Col>
+        <Col className="text-center mb-4" xs={6} lg={3}>
+          <SiTailwindcss />
         </Col>
       </Row>
     </IconContext.Provider>
