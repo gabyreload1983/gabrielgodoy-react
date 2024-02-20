@@ -9,6 +9,24 @@ export const personalInfo = {
 
 export const projects = [
   {
+    name: "Gabysystem",
+    type: "Web Application",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "BOOTSTRAP",
+      "NODEJS",
+      "EXPRESS",
+      "MONGODB",
+      "MYSQL",
+    ],
+    urlGithub: "https://github.com/gabyreload1983/front-gabysystem",
+    urlDeploy: "",
+    urlImage:
+      "https://res.cloudinary.com/dpugly2tk/image/upload/v1708392881/gabrielgodoy/projects/gabysystem.png",
+  },
+  {
     name: "Helpdesk Tickets",
     type: "Web Application",
     technologies: ["HTML", "CSS", "JAVASCRIPT", "REACT", "NEXTJS", "TAILWIND"],
