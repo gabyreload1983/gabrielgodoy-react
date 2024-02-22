@@ -27,7 +27,8 @@ function NavBar(props) {
               CONTACT
             </Nav.Link>
             <Nav.Link
-              href="/resources/cv/estebangabrielgodoy_cv.pdf"
+              as={Link}
+              href="https://gabrielgodoy.com.ar/resources/cv/estebangabrielgodoy_cv.pdf"
               target="_blank"
             >
               CV
