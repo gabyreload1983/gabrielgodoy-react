@@ -26,6 +26,12 @@ function NavBar(props) {
             <Nav.Link as={Link} to="/contact">
               CONTACT
             </Nav.Link>
+            <Nav.Link
+              href="/resources/cv/estebangabrielgodoy_cv.pdf"
+              target="_blank"
+            >
+              CV
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
