@@ -9,6 +9,22 @@ export const personalInfo = {
 
 export const projects = [
   {
+    name: "Nextjs Dashboard",
+    type: "Web Application",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "TAILWIND",
+      "POSTGRESS",
+      "NEXTJS",
+    ],
+    urlGithub: "https://github.com/gabyreload1983/nextjs-tutorial",
+    urlDeploy: "https://nextjs-tutorial-8oebqaap0-gabyreload1983.vercel.app",
+    urlImage:
+      "https://res.cloudinary.com/dpugly2tk/image/upload/v1709513517/gabrielgodoy/projects/nextjs-dashboard.png",
+  },
+  {
     name: "Gabysystem",
     type: "Web Application",
     technologies: [
